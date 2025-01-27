@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1A73E8; /* Blue background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .login-container {
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #fff;
+      color: #1A73E8;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #f1f1f1;
+    }
+
+    .forgot-password {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #fff;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="icon">🛒</div> <!-- Simple shopping cart icon -->
+    <form>
+      <input type="text" placeholder="USERNAME" required>
+      <input type="password" placeholder="PASSWORD" required>
+      <button type="submit">LOGIN</button>
+    </form>
+    <div class="forgot-password">Forgot password?</div>
+  </div>
+</body>
+</html>
